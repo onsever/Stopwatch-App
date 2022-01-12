@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA446385278F4EFE001B2BB8 /* Lap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA446384278F4EFE001B2BB8 /* Lap.swift */; };
 		BABB3614278E0CF3002E4D2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB3613278E0CF3002E4D2F /* AppDelegate.swift */; };
 		BABB3616278E0CF3002E4D2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB3615278E0CF3002E4D2F /* SceneDelegate.swift */; };
 		BABB3618278E0CF3002E4D2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB3617278E0CF3002E4D2F /* ViewController.swift */; };
 		BABB361B278E0CF3002E4D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABB3619278E0CF3002E4D2F /* Main.storyboard */; };
 		BABB361D278E0CF3002E4D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABB361C278E0CF3002E4D2F /* Assets.xcassets */; };
 		BABB3620278E0CF3002E4D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABB361E278E0CF3002E4D2F /* LaunchScreen.storyboard */; };
+		BABB362B278E1BDD002E4D2F /* LapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB3629278E1BDD002E4D2F /* LapCell.swift */; };
+		BABB362C278E1BDD002E4D2F /* LapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABB362A278E1BDD002E4D2F /* LapCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA446384278F4EFE001B2BB8 /* Lap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lap.swift; sourceTree = "<group>"; };
 		BABB3610278E0CF3002E4D2F /* Stopwatch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stopwatch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABB3613278E0CF3002E4D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BABB3615278E0CF3002E4D2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		BABB361C278E0CF3002E4D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BABB361F278E0CF3002E4D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BABB3621278E0CF3002E4D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABB3629278E1BDD002E4D2F /* LapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapCell.swift; sourceTree = "<group>"; };
+		BABB362A278E1BDD002E4D2F /* LapCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LapCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				BABB361C278E0CF3002E4D2F /* Assets.xcassets */,
 				BABB361E278E0CF3002E4D2F /* LaunchScreen.storyboard */,
 				BABB3621278E0CF3002E4D2F /* Info.plist */,
+				BABB3629278E1BDD002E4D2F /* LapCell.swift */,
+				BABB362A278E1BDD002E4D2F /* LapCell.xib */,
+				BA446384278F4EFE001B2BB8 /* Lap.swift */,
 			);
 			path = "Stopwatch App";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABB3620278E0CF3002E4D2F /* LaunchScreen.storyboard in Resources */,
+				BABB362C278E1BDD002E4D2F /* LapCell.xib in Resources */,
 				BABB361D278E0CF3002E4D2F /* Assets.xcassets in Resources */,
 				BABB361B278E0CF3002E4D2F /* Main.storyboard in Resources */,
 			);
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BABB3618278E0CF3002E4D2F /* ViewController.swift in Sources */,
+				BABB362B278E1BDD002E4D2F /* LapCell.swift in Sources */,
 				BABB3614278E0CF3002E4D2F /* AppDelegate.swift in Sources */,
+				BA446385278F4EFE001B2BB8 /* Lap.swift in Sources */,
 				BABB3616278E0CF3002E4D2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
